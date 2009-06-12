@@ -1,0 +1,22 @@
+<include src="rapid" plugin="hobo"/>
+
+<include src="taglibs/auto/rapid/cards"/>
+<include src="taglibs/auto/rapid/pages"/>
+<include src="taglibs/auto/rapid/forms"/>
+
+<set-theme name="clean"/>
+
+<def tag="app-name">Transitions</def>     
+
+<extend tag="card" for="Book">
+	<old-card merge>
+    <after-header:>
+		<body>
+			<transition-buttons />
+		</body>
+    </after-header:>
+	</old-card>
+</extend>
+
+
+

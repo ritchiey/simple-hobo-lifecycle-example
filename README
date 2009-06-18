@@ -2,4 +2,15 @@
 
 This project is a simple example of using Hobo's lifecycle feature.
 
-Unfortunately, at present, it seems that the lifecycle routes aren't being created properly which means that the <lifecycle-button /> tag creates a form that won't submit without error.
+Unfortunately, at present, it seems that the lifecycle routes aren't being created properly which means that the <lifecycle-button /> tag creates a form that won't submit without error.              
+
+Using:
+
+  - Hobo 0.8.7
+  - Rails 2.3.2
+  - Ruby 1.8.6           
+
+This has now been fixed in edge Hobo: https://hobo.lighthouseapp.com/projects/8324/tickets/446-transition-buttons-dont-work#ticket-446-3
+
+
+
